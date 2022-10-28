@@ -1,0 +1,21 @@
+Node.js is a running javascript on the server.
+It is a javascript runtime.
+It is built on Chrome's V8 Javascript engine.
+Node Js REPL- It is a feature to do experiment on nodeJsand debug Js it too. You can called it as JS cmd
+Read, Eval, Print, Loop
+To start REPL in your terminal 
+just write node and then enter
+
+
+REPL
+1. Js expression
+2. use varriables
+3. multiLine code
+4. use(_) to get the last result
+5. editor mode //.editor
+
+
+Node.Js core module
+module is same as javascript libraries. It gives some power that can help in making application easily and desinging.
+
+core module are built in module.
