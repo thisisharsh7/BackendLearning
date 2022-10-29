@@ -1,0 +1,6 @@
+To access webpages of any
+web application, you need a web server.The web server will handle all the http requests for the web application.
+for php we have apache as web server
+for ASP.NET we have IIS as a web server
+
+Node.js provides capabilites to create your own web server which will handle HTTP request asynchronously.

@@ -4,4 +4,7 @@
 //node module stores the code of our dependicies
 
 const chalk = require('chalk');
-console.log(chalk.red.underline.inverse('Hello world!'));
+console.log(chalk.red.underline.inverse('false'));
+console.log(chalk.green.underline.inverse('true'));
+console.log(chalk.red.underline.inverse('false'));
+console.log(chalk.green.underline.inverse('true'));

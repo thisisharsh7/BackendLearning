@@ -1,0 +1,6 @@
+[
+  { "name": "harsh", "bday": 30, "work": "web developer" },
+  { "name": "jadu", "bday": 5, "work": "software developer" },
+  { "name": "wow", "bday": 10, "work": "app developer" },
+  { "name": "no", "bday": 20, "work": "full-stack developer" }
+]
