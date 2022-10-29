@@ -1,0 +1,8 @@
+streams are the object where you can see, listen, or work on data in real time
+
+four types of strem
+
+1. data
+2. end
+3. error
+4. finish
