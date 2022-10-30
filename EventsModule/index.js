@@ -19,7 +19,7 @@ event.on('sayMyName',()=>{
 })//defining the event 
 
 
-event.emit("sayMyName");//calling the event
+event.emit("sayMyName");//calling the event or for emmiting the event
 
 
 //calling the event with several parameters
@@ -28,3 +28,9 @@ event.on("checkPage",(sc,msg)=>{
 })
 
 event.emit("checkPage",400,"bad");
+
+
+event.on("morning",(name)=>{
+    console.log(`good morning ${name}`);
+})
+event.emit("morning","harsh");

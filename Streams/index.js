@@ -1,6 +1,6 @@
-const fs = require('fs');
-const http = require('http');
-const { Stream, Readable } = require('stream');
+const fs = require('fs');//file system module
+const http = require('http');//http module for any server request and response
+const Stream = require('stream');//stream module
 
 const server = http.createServer();
 
@@ -13,6 +13,7 @@ server.on('request', (req, res) => {
 
 
     const rstream = fs.createReadStream("input.txt");//creating reading stream for reading the data
+    //it has four types data , end, error and finish
     // rstream.on('data', (chunkData) => {
     //     res.write(chunkData);
     // });//reading and writing data one by one
