@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --main-bg: #1e272e;
+  --main-color: #0097e6;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+html {
+  font-size: 62.5%;
+}
+.main_menu {
+  background-color: var(--main-bg);
+  color: white;
+}
+
+.navbar a {
+  color: white;
+  font-size: 1.8rem;
+}
+.navbar-toggler {
+  background-color: gray;
+}
+.nav-link:hover {
+  color: #0097e6;
+}
+
+footer {
+  margin-top: auto;
+  background-color: var(--main-bg);
+}
+footer p {
+  background-color: red;
+  text-align: center;
+
+  font-size: 1.5rem;
+  color: white;
+}
