@@ -1,0 +1,9 @@
+Express.js is a Node.js framework. It's the most popular framework as of now (the most starred on NPM).
+
+ExpressJs is a web application framework that provides you with a simple API to build websites, web apps and back ends.
+
+Plain Node.js is all about core modules.
+In ExpressJs we create API's in less code than that of NodeJs.
+
+Template engine pug,Mustache and Ejs which can use to add dynamic data on the website.
+Changing the template directory of views directory
