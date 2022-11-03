@@ -1,0 +1,10 @@
+It is used for storing data and playing with database.
+Data is store in form of docuemnts.
+It uses BSON to query database.(internally and over the network)(in a JSON like format)
+Storing data is called collection.
+BSON stores data in Binary representation. It is also known as binary json.
+Json is used for transmission but Bson is used for stroing data.
+MongoDB is a schema-less NoSQL document database.
+
+Mongoose is a npm package and manages relationship between data provide schema validation. It is an Object Data Modeling(ODM) library for MongoDB and Node.js.
+It provides abstraction data layer on MongoDB.
