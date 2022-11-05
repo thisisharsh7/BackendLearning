@@ -1,0 +1,9 @@
+It is representational state transfer application programming interface.
+API is a software which allows two application to communicate with each other over the internet and through various devices.
+REST is a architectural style for an api that uses http request to access and use data.
+http verbs-:
+CRUD operation
+Create ---> Post
+Read ---> Get
+Update ---> Update, Patch
+Delete ---> Delete
