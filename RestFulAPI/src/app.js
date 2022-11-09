@@ -60,6 +60,9 @@ app.get("/students/:id", async (req, res) => {
 app.get("/home", async (req, res) => {
     res.send("this is home page");
 })
+app.get("/contact", async (req, res) => {
+    res.send("this is contact page");
+})
 app.get("/*", async (req, res) => {
     res.send("this is error page");
 })
