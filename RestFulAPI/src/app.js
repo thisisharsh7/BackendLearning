@@ -57,6 +57,9 @@ app.get("/students/:id", async (req, res) => {
         console.log(e);
     }
 })
+app.get("home", async (req, res) => {
+    res.send("this is home page");
+})
 app.patch("/students/:id", async (req, res) => {
     try {
         const _id = req.params.id;
@@ -64,7 +67,7 @@ app.patch("/students/:id", async (req, res) => {
             new: true
         });
         res.send(upData);
-    } catch (e) {   
+    } catch (e) {
         res.status(500).send(e);
         console.log(e);
     }
