@@ -57,8 +57,11 @@ app.get("/students/:id", async (req, res) => {
         console.log(e);
     }
 })
-app.get("home", async (req, res) => {
+app.get("/home", async (req, res) => {
     res.send("this is home page");
+})
+app.get("/*", async (req, res) => {
+    res.send("this is error page");
 })
 app.patch("/students/:id", async (req, res) => {
     try {
