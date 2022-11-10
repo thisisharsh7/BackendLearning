@@ -19,6 +19,8 @@ hbs.registerPartials(partialPath);
 
 // app.get(route,callback);
 //routing
+var r = '';
+app.get('/favicon.ico', (req, res) => res.status(204));
 app.get("/", (req, res) => {
     res.render('index');
 });
@@ -29,8 +31,11 @@ app.get("/weather", (req, res) => {
     res.render('weather');
 });
 app.get("*", (req, res) => {
+    r = req.originalUrl.split('/')[1];
     res.render('404');
 });
+console.log(r);
+console.log('hey'); 
 
 
 //listening
