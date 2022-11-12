@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 //structure define
-const menSchema = new mongoose.Schema({
+const mensSchema = new mongoose.Schema({
     ranking: {
         type: Number,
         required: true,
@@ -33,4 +33,6 @@ const menSchema = new mongoose.Schema({
 })
 
 //collection create
-const MensRanking = mongoose.model('MenRanking',menSchema);
+const MensRanking = mongoose.model('MenRanking', mensSchema);
+
+module.exports = MensRanking;
